@@ -21,4 +21,5 @@ def shop_trip() -> None:
             customer.shopping_done(best_price_shop)
 
 
-shop_trip()
+if __name__ == "__main__":
+    shop_trip()
